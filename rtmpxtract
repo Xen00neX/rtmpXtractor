@@ -1,0 +1,1 @@
+curl -s https://stre.am/-/streams/$1.json | grep -Po '(?<="rtmpUrl":)[^,]*' | cat  
